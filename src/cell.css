@@ -1,0 +1,22 @@
+.game-cell {
+  --cell-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--cell-size);
+  height: var(--cell-size);
+  background-color: gray;
+  font-size: 1.5rem;
+}
+
+.active {
+  outline: .2rem solid lightblue;
+}
+
+.x-cell {
+  color: red;
+}
+
+.o-cell {
+  color: blue;
+}
